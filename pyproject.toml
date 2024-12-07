@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ailinguist"
+version = "0.1.0"
+description = "AI Linguist."
+authors = ["Chihiro Taguchi"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdf2image = "^1.17.0"
+openai = "1.53.0"
+python-dotenv = "^1.0.1"
+pypdf = "^5.1.0"
+fitz = "^0.0.1.dev2"
+pymupdf = "^1.24.14"
+pydantic = "2.9.2"
+sacrebleu = "^2.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
